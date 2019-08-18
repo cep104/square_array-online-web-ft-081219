@@ -1,6 +1,6 @@
 
 def square_array(array)
   new_array = []
-array.collect do |number|
+array.each do |number|
  new_array << number ** 2
 end
